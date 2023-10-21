@@ -1,16 +1,29 @@
 <script>
 </script>
 
-<div class="hero h-full bg-base-200 absolute">
-	<div class="hero-content flex-col lg:flex-row-reverse">
-		<img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" class="w-3/6 rounded-3xl shadow-2xl aspect-square" />
-		<div>
-			<h1 class="text-5xl font-bold">Box Office News!</h1>
-			<p class="py-6">
-				Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-				et a id nisi.
+<div class="bg-white w-full absolute">
+	<div class="relative bg-gray-900">
+		<!-- Decorative image and overlay -->
+		<div aria-hidden="true" class="absolute inset-0 overflow-hidden">
+			<img
+				src="https://tailwindui.com/img/ecommerce-images/home-page-01-hero-full-width.jpg"
+				alt=""
+				class="h-full w-full object-cover object-center"
+			/>
+		</div>
+		<div aria-hidden="true" class="absolute inset-0 bg-gray-900 opacity-50" />
+
+		<div class="relative mx-auto flex max-w-3xl flex-col items-center px-6 py-32 text-center sm:py-64 lg:px-0">
+			<h1 class="text-4xl font-bold tracking-tight text-white lg:text-6xl">New arrivals are here</h1>
+			<p class="mt-4 text-xl text-white">
+				The new arrivals have, well, newly arrived. Check out the latest options from our summer small-batch release while they're still in
+				stock.
 			</p>
-			<button class="btn btn-primary">Get Started</button>
+			<a
+				href="#"
+				class="mt-8 inline-block rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-gray-900 hover:bg-gray-100"
+				>Shop New Arrivals</a
+			>
 		</div>
 	</div>
 </div>

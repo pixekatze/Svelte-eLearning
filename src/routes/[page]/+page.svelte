@@ -1,8 +1,8 @@
 <script>
 	import { page } from "$app/stores";
 	export let data;
-	import HeroContent from "$lib/HeroContent.svelte";
-	import Card from "$lib/Card.svelte";
+	import HeroImage from "$lib/HeroImage.svelte";
+	import PromoPageOne from "$lib/PromoPageOne.svelte";
 	import Feature from "$lib/Feature.svelte";
 
 	$: path = parseInt($page.url.pathname.replace(/\/(\d+)$/, "$1"));
@@ -12,10 +12,10 @@
 
 <div class="flex h-full w-full bg-white absolute justify-center items-center px-16">
 	{#if path == 1}
-		<HeroContent {data} />
+		<HeroImage {data} />
 	{:else if path == 2}
 		<Feature {data} />
 	{:else}
-		<Card {data} />
+		<PromoPageOne {data} />
 	{/if}
 </div>

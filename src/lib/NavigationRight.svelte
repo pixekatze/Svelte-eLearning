@@ -7,9 +7,9 @@
 
 <div class="flex items-center h-full">
 	<div class="z-[1] mr-4">
-		<a href={nextPage} class="btn h-fit p-2 bg-white border-0">
+		<a href={nextPage} class="btn h-fit p-2 bg-transparent border-0" style="--tw-bg-opacity: 0.2; --b3: 0 0% 0%;">
 			<svg
-				class="fill-none stroke-current stroke-2"
+				class="fill-none stroke-indigo-600 stroke-2"
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
 				viewBox="0 0 26.7 66.6"
