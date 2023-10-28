@@ -16,15 +16,15 @@
 		<ul role="list" class="flex flex-1 flex-col gap-y-7">
 			<li>
 				<ul role="list" class="-mx-2 space-y-1">
-					{#each menus as menu}
-						<li>
+					<li>
+						{#each menus as menu}
 							{#if menu.sub}
 								<Folder {menu} />
 							{:else}
 								<File {menu} />
 							{/if}
-						</li>
-					{/each}
+						{/each}
+					</li>
 				</ul>
 			</li>
 			<li class="-mx-6 mt-auto">

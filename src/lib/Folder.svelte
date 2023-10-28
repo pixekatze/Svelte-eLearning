@@ -38,9 +38,9 @@
 </button>
 
 {#if expanded}
-	<ul class="{expanded ? 'block' : 'hidden'} mt-1 px-2" id="sub-menu-1">
+	<ul class="{expanded ? 'block' : 'hidden'} mt-1 px-2 space-y-4" id="sub-menu-1">
 		{#each subMenus as submMenu}
-			<li>
+			<li class="relative flex gap-x-3">
 				<FileTwo {submMenu} />
 			</li>
 		{/each}

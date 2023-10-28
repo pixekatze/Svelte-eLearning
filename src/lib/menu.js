@@ -14,9 +14,36 @@ export const files = {
 `,
 		url: "#",
 		sub: {
-			sub_1: { name: "Sub Menu", url: "#" },
-			sub_2: { name: "Sub Menu2", url: "#" },
-			sub_3: { name: "Sub Menu3", url: "#" },
+			sub_1: {
+				name: "Sub Menu",
+				line: `<div class="w-0.5 bg-indigo-600" />`,
+				svg: `<svg class="h-5 w-5 text-indigo-600" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+		<path
+			fill-rule="evenodd"
+			d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+			clip-rule="evenodd"
+		/>
+	</svg>`,
+				url: "#",
+			},
+			sub_2: {
+				name: "Sub Menu2",
+				line: `<div class="w-0.5 bg-gray-200" />`,
+				svg: `<div class="h-3 w-3 rounded-full bg-gray-100 ring-2 ring-indigo-600" />`,
+				url: "#",
+			},
+			sub_3: {
+				name: "Sub Menu3",
+				line: `<div class="w-0.5 bg-gray-200" />`,
+				svg: `<div class="h-3 w-3 rounded-full bg-gray-100 ring-2 ring-gray-300" />`,
+				url: "#",
+			},
+			sub_4: {
+				name: "Sub Menu4",
+				line: `<div class="w-0" />`,
+				svg: `<div class="h-3 w-3 rounded-full bg-gray-100 ring-2 ring-gray-300" />`,
+				url: "#",
+			},
 		},
 	},
 
@@ -25,24 +52,42 @@ export const files = {
 		name: "Menu",
 		svg: `<svg 
 viewBox="0 0 24 24" 
-fill="green" 
-class="w-6 h-6">
+fill="currentColor"
+class="w-6 h-6  text-indigo-600">
   <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
 </svg>`,
 		url: "#",
 		sub: {
 			sub_1: {
 				name: "Sub Menu",
-				svg: `<svg 
-viewBox="0 0 24 24" 
-fill="green" 
-class="w-6 h-6">
-  <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
-</svg>`,
+				line: `<div class="w-0.5 bg-indigo-600" />`,
+				svg: `<svg class="h-5 w-5 text-indigo-600" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+		<path
+			fill-rule="evenodd"
+			d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
+			clip-rule="evenodd"
+		/>
+	</svg>`,
 				url: "#",
 			},
-			sub_2: { name: "Sub Menu2", url: "#" },
-			sub_3: { name: "Sub Menu3", url: "#" },
+			sub_2: {
+				name: "Sub Menu2",
+				line: `<div class="w-0.5 bg-gray-200" />`,
+				svg: `<div class="h-3 w-3 rounded-full bg-gray-100 ring-2 ring-indigo-600" />`,
+				url: "#",
+			},
+			sub_3: {
+				name: "Sub Menu3",
+				line: `<div class="w-0.5 bg-gray-200" />`,
+				svg: `<div class="h-3 w-3 rounded-full bg-gray-100 ring-2 ring-gray-300" />`,
+				url: "#",
+			},
+			sub_4: {
+				name: "Sub Menu4",
+				line: `<div class="w-0" />`,
+				svg: `<div class="h-3 w-3 rounded-full bg-gray-100 ring-2 ring-gray-300" />`,
+				url: "#",
+			},
 		},
 	},
 	/********************************************************/

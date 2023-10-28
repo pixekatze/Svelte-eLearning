@@ -4,6 +4,7 @@
 	import HeroImage from "$lib/HeroImage.svelte";
 	import PromoPageOne from "$lib/PromoPageOne.svelte";
 	import Feature from "$lib/Feature.svelte";
+	import Feed from "$lib/Feed.svelte";
 
 	$: path = parseInt($page.url.pathname.replace(/\/(\d+)$/, "$1"));
 
